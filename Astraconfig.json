@@ -1,6 +1,6 @@
 {
     "token": "<token>",
-
+    "owner_id": "<id>",
     "prefix": ":",
 
 }

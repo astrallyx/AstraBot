@@ -24,7 +24,6 @@ bot.on('guildDelete', guild => {
 bot.on('message', message => {
   if(!message.content.includes(config.prefix)) return;
   let cont = message.content.slice(config.prefix);
-  if (cont.includes('Hi')) return message.reply('hello!');
 });
 
 bot.login(config.token);
